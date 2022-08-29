@@ -1,0 +1,270 @@
+header {
+	background: darkblue;
+	padding: 20px 0;
+}
+
+.cabecalho h1 {
+	text-align: center;
+	font-size: 22px;
+        font-weight: bold;
+	color: white;
+	font-family: verdana;
+}
+
+.texto-inicio {
+	text-align: center;
+	padding: 20px;
+	font-size: 20px;
+	font-family: verdana;
+        margin-bottom: 40px;
+}
+
+.caixa-texto{
+        border: none;
+        background-color: lightgray;
+        width: 40%;
+        height: 200px;
+        outline: none;
+        resize: none;
+        padding: 1.5px;
+        margin-left: 5%;
+
+        font-size: 22px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 19px 38px rgb(0 0 0 / 10%), 0 15px 12px rgb(0 0 0 / 10%)
+}
+
+.resultado {
+        border: none;
+        background-color: lightgray;
+        width: 40%;
+        height: 200px;
+        outline: none;
+        resize: none;
+        padding: 1.5px;
+        margin-left: 8.5%;
+
+        font-size: 22px;
+        border-radius: 10px 10px 10px 10px;
+        box-shadow: 0 19px 38px rgb(0 0 0 / 10%), 0 15px 12px rgb(0 0 0 / 10%)
+}
+
+.infoText img {
+	width: 15px;
+        height: 15px;
+        margin-left: 60px;
+    
+}
+
+.info {
+        font-style: italic;
+	font-family: sans-serif;
+        font-size: 14px;
+        margin-left: 7px;
+        display: inline;
+}
+
+.containerButtons {
+        padding-bottom: 20px;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        gap: 15px;
+        justify-content: center;
+        align-items: center;
+    }
+
+.primaryButton {
+
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient( 100% 100% at 100% 0, #5adaff 0, #5468ff 100% );
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgb(58 65 111 / 50%) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+
+    margin-left: 15%;
+    margin-top: 3%;
+
+} 
+
+.primaryButton:hover {
+
+        background-color: var(--DefaultColorHover);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        /*transition: all 0.3s cubic-bezier(.25, .8, .25, 1);*/
+        border-color: #C78C19;
+		font-size: 18px;
+
+
+    }
+
+ .primaryButton#copy {
+
+        margin-top: 20px;
+    }
+
+.secundaryButton {
+
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient( 100% 100% at 100% 0, #5adaff 0, #5468ff 100% );
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgb(58 65 111 / 50%) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+    margin-left: 3%;
+}
+
+
+.secundaryButton:hover {
+
+        background-color: var(--DefaultColorHover);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        /*transition: all 0.3s cubic-bezier(.25, .8, .25, 1);*/
+        border-color: #C78C19;
+	font-size: 18px;
+
+}
+
+.copyButton {
+ 
+    align-items: center;
+    appearance: none;
+    background-image: radial-gradient( 100% 100% at 100% 0, #5adaff 0, #5468ff 100% );
+    border: 0;
+    border-radius: 6px;
+    box-shadow: rgb(45 35 66 / 40%) 0 2px 4px, rgb(45 35 66 / 30%) 0 7px 13px -3px, rgb(58 65 111 / 50%) 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-flex;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow 0.15s, transform 0.15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow, transform;
+    font-size: 18px;
+    margin-left: 30%;
+
+
+
+}
+
+.copyButton:hover {
+
+        background-color: var(--DefaultColorHover);
+        box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+        /*transition: all 0.3s cubic-bezier(.25, .8, .25, 1);*/
+        border-color: #C78C19;
+        font-size: 18px;
+        
+        }
+
+
+footer {
+        text-align: center;
+        padding: 5px 0;
+        background: darkblue;
+        margin-top: 2%;
+}
+.copyright {
+  
+        /*margin:  40px 0 0 ;*/
+        font-size: 13px;
+        color: white;
+        padding: 20px;
+}
+
+.iconLinkedin {
+        width: 25px;
+        align-items: center;
+}
+
+.iconGithub {
+        width: 25px;
+        align-items: center;
+}
+
+body { /*
+	background: linear-gradient(to left, #6eb4cf, #dd9d3c); */
+	background: linear-gradient(to left, blueviolet, skyblue);
+}
+
+
+@media only screen and (min-width: 481px) and (max-width: 1080px) {
+
+header {
+        background: darkblue;
+        padding: 20px 0;
+} 
+
+  main {
+
+    width: 100%;    
+    height:100%;
+  }
+
+.cabecalho h1 {
+        text-align: center;
+        font-size: 22px;
+        font-weight: bold;
+        color: white;
+        font-family: verdana;
+}
+
+}
+
+
